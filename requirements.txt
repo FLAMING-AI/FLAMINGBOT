@@ -1,5 +1,5 @@
 aiohttp
-pyrogram==1.4.15
+git+https://github.com/FLAMING-AI/pyrogram.git
 psycopg2-binary
 requests
 dnspython
