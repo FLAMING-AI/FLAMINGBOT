@@ -1,5 +1,5 @@
 aiohttp
-git+https://github.com/FLAMING-AI/FLAMINGBOT.git
+git+https://github.com/FLAMING-AI/pyrogram.git
 psycopg2-binary
 requests
 dnspython
