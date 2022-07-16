@@ -28,8 +28,8 @@ if ALIVE_IMG:
 else: 
     ALIVE_PIC = 'https://te.legra.ph/file/c1672f2d5ac436575fc3b.mp4'
 
-if MONGO_DB:
-    MONGO_DB = MONGO_DB
+if MONGO_DBB:
+    MONGO_DB = MONGO_DBB
 else: 
     MONGO_DB = "https://visionbypankaj:Rf2BMcooABO6lP6K@cluster0.dgwig.mongodb.net/?retryWrites=true&w=majority"
 
