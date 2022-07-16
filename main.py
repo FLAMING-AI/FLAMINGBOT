@@ -39,7 +39,7 @@ else:
     Owner = 777000
 
 if STRING_SESSION1:
-    bot1 = Client(session_name= STRING_SESSION1, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot1 = Client(session_string= STRING_SESSION1, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
 else:
     bot1 = None
 
