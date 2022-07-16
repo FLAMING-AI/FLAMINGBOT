@@ -1,0 +1,53 @@
+{
+    "name": "Flaming-Userbot",
+    "description": "USERBOT FOR TELEGRAM!",
+    "logo": "https://te.legra.ph/file/bdce182ec04a7ead06610.jpg",
+    "repository": "https://github.com/FLAMING-AI/FLAMINGUSERBOT",
+    "env": {
+        "STRING_SESSION1": {
+            "description": "pyrogram string session here",
+            "required": true
+        },
+        },
+        "API_ID": {
+            "description": "telegram api id here",
+            "required": true
+        },
+        "MONGO_DB": {
+            "description": "Enter Your Mongo Database Url from https://www.mongodb.com/! This Is helpful for gban fban etc stuffs",
+            "required": true
+        },
+        "LOG_GROUP": {
+            "description": "Enter There group/ channel id where fbans etc stuffs logs ( Add Rose bot and type /id.)",
+            "required": false
+        },
+        "SUDO_USERS": {
+            "description": "Who have Access Your Account But Rearly Plugins there",
+            "required": true
+        },
+        "HEROKU_API": {
+            "description": "Enter You Heroku Api there",
+            "required": false
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Enter Your heroku App Name Here",
+            "required": false
+        },
+        "API_HASH": {
+            "description": "telegram api hash here",
+            "required": true
+        }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }],
+    "buildpacks": [
+            {
+                "url": "heroku/python"
+            },
+            {
+                "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+            }
+        ]
+}
