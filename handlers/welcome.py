@@ -3,10 +3,10 @@ from pyrogram import filters, Client
 
 from helpers.pyrohelper import get_arg, welcome_chat
 import helpers.mongo.welcomedb as Flaming
-from main import LOG_GROUP
+from main import LOG_CHAT
 
 
-LOG_CHAT = LOG_GROUP
+LOG_CHAT = LOG_CHAT
 
 
 @Client.on_message(filters.command("clearwelcome", ["."]) & filters.me)
