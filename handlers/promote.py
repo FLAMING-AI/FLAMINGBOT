@@ -3,7 +3,7 @@ import asyncio
 import time
 try:
     from emoji import get_emoji_regexp
-except import as e:
+except import error as e:
     print(e)
 
 from pyrogram.types import ChatPermissions, Message
