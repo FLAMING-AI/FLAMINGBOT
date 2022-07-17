@@ -5,7 +5,7 @@ import helpers.mongo.notesdb as Flaming
 from main import LOG_CHAT
 from handlers.help import *
 
-LOG_CHAT = LOG_GROUP
+LOG_CHAT = LOG_CHAT
 
 
 @Client.on_message(filters.command("save", ["."]) & filters.me)
