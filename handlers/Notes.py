@@ -2,7 +2,7 @@ from pyrogram import filters, Client
 
 from helpers.pyrohelper import get_arg
 import helpers.mongo.notesdb as Flaming
-from main import LOG_GROUP
+from main import LOG_CHAT
 from handlers.help import *
 
 LOG_CHAT = LOG_GROUP
