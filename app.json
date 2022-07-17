@@ -14,7 +14,7 @@
         },
         "MONGO_DB": {
             "description": "Enter Your Mongo Database Url from https://www.mongodb.com/! This Is helpful for gban fban etc stuffs",
-            "required": true
+            "required": false
         },
         "LOG_GROUP": {
             "description": "Enter There group/ channel id where fbans etc stuffs logs ( Add rosebot and type /id .)",
