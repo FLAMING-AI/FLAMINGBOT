@@ -1,10 +1,7 @@
 from pyrogram import Client, filters
 import asyncio
 import time
-try:
-    from emoji import get_emoji_regexp
-except import error as e:
-    print(e)
+from emoji import get_emoji_regexp
 
 from pyrogram.types import ChatPermissions, Message
 from pyrogram.errors import (
