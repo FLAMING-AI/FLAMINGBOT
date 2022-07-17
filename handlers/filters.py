@@ -1,7 +1,7 @@
 import re
 
 from pyrogram import filters, Client
-from main import LOG_GROUP as LOG_CHAT
+from main import LOG_CHAT as LOG_CHAT
 from helpers.pyrohelper import get_arg
 from helpers.mongo.filtersdb import (
     add_filters,
