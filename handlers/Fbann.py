@@ -13,7 +13,7 @@ from helpers.SQL.fban_db import (
     rm_all_fed,
     rmfed,
 )
-from main import LOG_GROUP as FBAN_GROUP
+from main import LOG_CHAT as FBAN_GROUP
 from handlers.help import *
 
 @Client.on_message(filters.command(["fadd", "addfed"], ".") & filters.me)
