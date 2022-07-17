@@ -4,7 +4,7 @@ from pyrogram.types import Message, User
 from pyrogram import Client
 from helpers.mongo.afkdb import get_afk_status
 from helpers.mongo.pmpermitdb import get_approved_users, pm_guard
-import helpers.mongo.welcomedb as Flamingm
+import helpers.mongo.welcomedb as Flaming
 import shlex
 
 
@@ -53,7 +53,7 @@ async def denied_users(filter, client: Client, message: Message):
 
 
 async def welcome_chat(filter, client: Client, message: Message):
-    to_welcome = await flamingm.get_welcome(str(message.chat.id))
+    to_welcome = await Flaming.get_welcome(str(message.chat.id))
     if to_welcome:
         return True
     else:
